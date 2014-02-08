@@ -1,6 +1,7 @@
-Before you can even successfully run this script, you need to install the Amazon EC2 Command Line Tools
-http://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/InstallEC2CommandLineTools.html
+This script will take ebs backup of Windows instance
 
+Before you can even successfully run this script, you need to install the Amazon EC2 Command Line Tools
+http://nitheeshp.blogspot.in/2014/01/configuring-and-installing-new-aws.html
 Make sure that %JAVA_HOME%\bin and %EC2_HOME%\bin get added to your PATH system variable.
 
 Once you are able to successfully run ec2-describe-snapshots from a cmd prompt, you should be set to schedule this script.
